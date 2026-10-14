@@ -7,7 +7,7 @@ import { AdjustBalancePayload } from "../types/type";
 interface AdjustBalanceModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onAdjust: (payload: AdjustBalancePayload) => Promise<void>;
+  onAdjust: (payload: AdjustBalancePayload) => Promise<unknown>;
   isAdjusting: boolean;
 }
 
